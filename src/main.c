@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include "../inc/my.h"
+#include "../inc/raycasting.h"
 
 char map[] = {
     1,1,1,1,1,1,1,1,

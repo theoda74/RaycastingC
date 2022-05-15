@@ -8,7 +8,7 @@
 #include <SFML/Graphics.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "../inc/my.h"
+#include "../inc/raycasting.h"
 #include <math.h>
 
 void error_handler(Raycasting_t *ray)

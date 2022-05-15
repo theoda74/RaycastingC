@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include "../inc/my.h"
+#include "../inc/raycasting.h"
 
 void loop(Raycasting_t *ray)
 {

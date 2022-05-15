@@ -8,7 +8,7 @@
 #include <SFML/Graphics.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "../inc/my.h"
+#include "../inc/raycasting.h"
 
 void draw(Raycasting_t ray)
 {
