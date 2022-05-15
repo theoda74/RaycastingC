@@ -24,4 +24,4 @@ You can move using Z,Q,S,D.
 
 At the left left part there is the 2D map,
 
-and at the right there his the 3D representation.
+and at the right there is his 3D representation.
