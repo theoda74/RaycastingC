@@ -26,12 +26,16 @@ all:	$(NAME)
 
 $(NAME):	$(OBJ)
 		gcc -o $(NAME) $(OBJ) $(FLAG)
+		echo -e "\033[1;32mCompilation Completed!\033[0m";
 
 clean:
 	$(RM) src/*.o
 	$(RM) utils/*.o
-
-fclean: clean
+	echo -e "\033[1;32mRepository Cleaned!\033[0m";
+fclean:
+	$(RM) src/*.o
+	$(RM) utils/*.o
 	$(RM) $(NAME)
+	echo -e "\033[1;32mRepository Cleaned!\033[0m";
 
 re: fclean all
