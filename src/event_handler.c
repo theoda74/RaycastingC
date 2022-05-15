@@ -43,7 +43,6 @@ void error_handler(Raycasting_t *ray)
                 ray->user.pos.x -= ray->user.pdx;
                 ray->user.pos.y -= ray->user.pdy;
             }
-
         }
     }
 }

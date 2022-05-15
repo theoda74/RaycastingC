@@ -166,7 +166,7 @@ void drawRays(Raycasting_t *ray)
         sfVertexArray_resize(ray->quads[r].quads, 4);
 
         ray->quads[r].one.position.x = r * 8 + 530;
-        ray->quads[r].one.position.y = 70;
+        ray->quads[r].one.position.y = lineO;
 
         ray->quads[r].two.position.x = r * 8 + 530;
         ray->quads[r].two.position.y = lineH + lineO;
@@ -175,7 +175,7 @@ void drawRays(Raycasting_t *ray)
         ray->quads[r].three.position.y = lineH + lineO;
 
         ray->quads[r].four.position.x = r * 8 + 530 + 8;
-        ray->quads[r].four.position.y = 70;
+        ray->quads[r].four.position.y = lineO;
     
         sfVertexArray_append(ray->quads[r].quads, ray->quads[r].one);
         sfVertexArray_append(ray->quads[r].quads, ray->quads[r].two);
