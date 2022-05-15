@@ -12,6 +12,7 @@ SRC		=	src/main.c			\
 			src/draw.c			\
 			src/destroy.c		\
 			src/loop.c			\
+			src/rays_walls.c	\
 			utils/create_rec.c 	\
 			utils/create_spr.c 	\
 			utils/create_txt.c 	\

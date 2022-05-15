@@ -66,6 +66,8 @@ typedef struct Raycasting_s {
 
 } Raycasting_t;
 
+void drawRays(Raycasting_t *);
+float dist(float, float, float, float, float);
 sfRectangleShape *create_rec(sfVector2f, sfVector2f, sfColor,sfTexture *);
 sfSprite *create_sprite(sfVector2f, sfVector2f, sfTexture *);
 sfText *create_txt(sfVector2f, sfFont *, sfColor, char *);
